@@ -1,0 +1,173 @@
+Documentation
+NAME: B BALAJI
+DATE: 29-11-2024
+
+Description: The purpose of storing an index is to optimize speed and performance in
+             finding relevant documents for a search query. Without an index, the search
+             engine would scan every document in the corpus, which would require
+             considerable time and computing power.
+
+Sample input: /invert.exe file1.txt file2.txt file3.txt fil
+sample output:
+
+> Info: file1.txt is valid
+> Info: file1.txt Inserted Successfully ✔️ 
+> Info: file2.txt is valid
+> Info: file2.txt Inserted Successfully ✔️ 
+> Info: file3.txt is valid
+> Info: file3.txt Inserted Successfully ✔️ 
+> File fil not in '.txt' Extension☠️
+
+......................................................
+                 INVERTED SEARCH MENU
+......................................................
+1. Create DB
+2. Search DB
+3. Save DB
+4. Display DB
+5. Update DB
+6. Exit
+
+👉 Enter your Choice: 1
+> Info: Create DB Successful!!
+😋 Do you want to continue Yy/Nn : y
+1. Create DB
+2. Search DB
+3. Save DB
+4. Display DB
+5. Update DB
+6. Exit
+
+👉 Enter your Choice: 4
+[0] 'are' 1  file1.txt 1
+[1] 'balu' 1  file2.txt 2
+[7] 'hii' 3  file1.txt 1 file2.txt 1 file3.txt 1
+[7] 'hello' 2 file1.txt 1 file2.txt 1
+[7] 'how' 2 file1.txt 2 file2.txt 2
+[17] 'raju' 1  file1.txt 1
+[24] 'you' 1  file1.txt 2
+[26] '@balu' 1  file3.txt 1
+😋 Do you want to continue Yy/Nn : y
+1. Create DB
+2. Search DB
+3. Save DB
+4. Display DB
+5. Update DB
+6. Exit
+
+👉 Enter your Choice: 2
+-> Enter the word: hii
+
+Data Found!!
+'hii' found in 3 files
+file1.txt 1 times, file2.txt 1 times, file3.txt 1 times, 
+
+😋 Do you want to continue Yy/Nn : y
+1. Create DB
+2. Search DB
+3. Save DB
+4. Display DB
+5. Update DB
+6. Exit
+
+👉 Enter your Choice: 3
+-> Enter the file(.txt) name : output.txt
+Save Data Successfully!!
+😋 Do you want to continue Yy/Nn : y
+1. Create DB
+2. Search DB
+3. Save DB
+4. Display DB
+5. Update DB
+6. Exit
+
+👉 Enter your Choice: 6
+Do you want to save data Yy/Nn : y
+Save Data Successfully in "backup.txt" !!
+Bye buddy,See you again!!😊
+
+......................................................
+
+sample input 2: ./invert.exe file1.txt file2.txt file3.txt fi
+sample output 2:
+
+> Info: file1.txt is valid
+> Info: file1.txt Inserted Successfully ✔️ 
+> Info: file2.txt is valid
+> Info: file2.txt Inserted Successfully ✔️ 
+> Info: file3.txt is valid
+> Info: file3.txt Inserted Successfully ✔️ 
+> File fi not in '.txt' Extension☠️
+
+......................................................
+                 INVERTED SEARCH MENU
+......................................................
+1. Create DB
+2. Search DB
+3. Save DB
+4. Display DB
+5. Update DB
+6. Exit
+
+👉 Enter your Choice: 5   
+-> Enter backup file(.txt) name : bacjdv
+> File bacjdv not in '.txt' Extension☠️
+😋 Do you want to continue Yy/Nn : y
+1. Create DB
+2. Search DB
+3. Save DB
+4. Display DB
+5. Update DB
+6. Exit
+
+👉 Enter your Choice: 5
+-> Enter backup file(.txt) name : djbjdbvv.deugh
+> File djbjdbvv.deugh not in '.txt' Extension☠️
+😋 Do you want to continue Yy/Nn : y
+1. Create DB
+2. Search DB
+3. Save DB
+4. Display DB
+5. Update DB
+6. Exit
+
+👉 Enter your Choice: 5
+-> Enter backup file(.txt) name : backup.txt
+😋 Do you want to continue Yy/Nn : y
+1. Create DB
+2. Search DB
+3. Save DB
+4. Display DB
+5. Update DB
+6. Exit
+
+👉 Enter your Choice: 4
+[0] 'are' 1  file1.txt 1
+[1] 'balu' 1  file2.txt 2
+[7] 'hii' 3  file1.txt 1 file2.txt 1 file3.txt 1
+[7] 'hello' 2 file1.txt 1 file2.txt 1
+[7] 'how' 2 file1.txt 2 file2.txt 2
+[17] 'raju' 1  file1.txt 1
+[24] 'you' 1  file1.txt 2
+[26] '@balu' 1  file3.txt 1
+😋 Do you want to continue Yy/Nn : y
+1. Create DB
+2. Search DB
+3. Save DB
+4. Display DB
+5. Update DB
+6. Exit
+
+👉 Enter your Choice: 1
+> Info: Create DB Successful!!
+😋 Do you want to continue Yy/Nn : y
+1. Create DB
+2. Search DB
+3. Save DB
+4. Display DB
+5. Update DB
+6. Exit
+
+👉 Enter your Choice: 5
+> Update can't done after create DATABASE!!
+😋 Do you want to continue Yy/Nn : n
